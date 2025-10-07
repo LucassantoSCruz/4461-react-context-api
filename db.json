@@ -1,4 +1,52 @@
 {
-    "usuarios": [],
-    "transacoes": []
+  "usuarios": [
+    {
+      "id": "1cc0",
+      "nome": "Lucas",
+      "renda": "2000",
+      "orcamento": 66.66666666666667
+    },
+    {
+      "id": "c5f1",
+      "nome": "Lusca",
+      "renda": "2000",
+      "orcamento": 66.66666666666667
+    },
+    {
+      "id": "7188",
+      "nome": "Lucas",
+      "renda": "2500",
+      "orcamento": 83.33333333333333
+    },
+    {
+      "id": "704b",
+      "nome": "Lucas Cruz",
+      "renda": "1500",
+      "orcamento": 50
+    },
+    {
+      "id": "e820",
+      "nome": "Lusca",
+      "renda": "3000",
+      "orcamento": 100
+    }
+  ],
+  "transacoes": [
+    {
+      "id": "015f",
+      "nome": "Livro",
+      "valor": "70",
+      "tipo": "despesa",
+      "categoria": "Estudos",
+      "data": "2025-10-07"
+    },
+    {
+      "id": "ec83",
+      "nome": "PIX",
+      "valor": "2000",
+      "tipo": "receita",
+      "categoria": "Pagamento",
+      "data": "2025-10-07"
+    }
+  ]
 }
