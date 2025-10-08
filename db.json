@@ -29,6 +29,48 @@
       "nome": "Lusca",
       "renda": "3000",
       "orcamento": 100
+    },
+    {
+      "id": "08de",
+      "nome": "Lucas 1",
+      "renda": "100",
+      "orcamento": 3.3333333333333335
+    },
+    {
+      "id": "582f",
+      "nome": "Lucas 2",
+      "renda": "500",
+      "orcamento": 16.666666666666668
+    },
+    {
+      "id": "f98c",
+      "nome": "Lucas 3",
+      "renda": "2500",
+      "orcamento": 83.33333333333333
+    },
+    {
+      "id": "7a26",
+      "nome": "Lucas 4",
+      "renda": "500",
+      "orcamento": 16.666666666666668
+    },
+    {
+      "id": "8ab9",
+      "nome": "Lucas 5",
+      "renda": "5000",
+      "orcamento": 166.66666666666666
+    },
+    {
+      "id": "7d13",
+      "nome": "Lucas 6",
+      "renda": "1250",
+      "orcamento": 41.666666666666664
+    },
+    {
+      "id": "1607",
+      "nome": "Lucas 7",
+      "renda": "200",
+      "orcamento": 6.666666666666667
     }
   ],
   "transacoes": [

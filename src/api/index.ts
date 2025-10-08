@@ -38,8 +38,24 @@ export const obterTransacoes = async (): Promise<ITransacoes[]> => {
 };
 
 export const criarTrasacao = async (
-  transacao: Omit<ITransacoes, "id">
+  transacao: Omit<ITransacoes, "id">,
+  usuario: Omit<IUsuario, "nome">
 ): Promise<ITransacoes> => {
-  const { data } = await api.post<ITransacoes>("/transacoes", transacao);
+  const transacaoComId = { ...transacao, userId: usuario.id };
+  const { data } = await api.post<ITransacoes>("/transacoes", transacaoComId);
+
+  const transacoes = await obterTransacoes();
+  const saldo = calcularSaldo(transacoes);
+
+  const novoOrcamentoDiario = usuario.renda / 30 + saldo;
+
   return data;
+};
+
+const calcularSaldo = (transacoes: ITransacoes[]): number => {
+  return transacoes.reduce((total, transacao) => {
+    return transacao.tipo === "receita"
+      ? total + transacao.valor
+      : total - transacao.valor;
+  }, 0);
 };
