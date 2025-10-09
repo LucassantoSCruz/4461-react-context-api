@@ -1,94 +1,65 @@
 {
   "usuarios": [
     {
-      "id": "1cc0",
-      "nome": "Lucas",
-      "renda": "2000",
-      "orcamento": 66.66666666666667
-    },
-    {
-      "id": "c5f1",
-      "nome": "Lusca",
-      "renda": "2000",
-      "orcamento": 66.66666666666667
-    },
-    {
-      "id": "7188",
-      "nome": "Lucas",
-      "renda": "2500",
-      "orcamento": 83.33333333333333
-    },
-    {
-      "id": "704b",
-      "nome": "Lucas Cruz",
-      "renda": "1500",
-      "orcamento": 50
-    },
-    {
-      "id": "e820",
-      "nome": "Lusca",
-      "renda": "3000",
-      "orcamento": 100
-    },
-    {
-      "id": "08de",
-      "nome": "Lucas 1",
-      "renda": "100",
-      "orcamento": 3.3333333333333335
-    },
-    {
-      "id": "582f",
-      "nome": "Lucas 2",
-      "renda": "500",
-      "orcamento": 16.666666666666668
-    },
-    {
-      "id": "f98c",
-      "nome": "Lucas 3",
-      "renda": "2500",
-      "orcamento": 83.33333333333333
-    },
-    {
-      "id": "7a26",
-      "nome": "Lucas 4",
-      "renda": "500",
-      "orcamento": 16.666666666666668
-    },
-    {
-      "id": "8ab9",
-      "nome": "Lucas 5",
+      "id": "52e5",
+      "nome": "Neilton Seguins",
       "renda": "5000",
-      "orcamento": 166.66666666666666
+      "orcamentoDiario": 106.66666666666666
     },
     {
-      "id": "7d13",
-      "nome": "Lucas 6",
-      "renda": "1250",
-      "orcamento": 41.666666666666664
+      "id": "ff56",
+      "nome": "Lucas",
+      "renda": "1000",
+      "orcamentoDiario": 33.333333333333336
     },
     {
-      "id": "1607",
-      "nome": "Lucas 7",
-      "renda": "200",
-      "orcamento": 6.666666666666667
+      "id": "e385",
+      "nome": "Lucas",
+      "renda": "250",
+      "orcamentoDiario": 8.333333333333334
+    },
+    {
+      "id": "ec25",
+      "nome": "Lucas",
+      "renda": "2000",
+      "orcamentoDiario": 66.66666666666667
     }
   ],
   "transacoes": [
     {
-      "id": "015f",
+      "id": "6474",
       "nome": "Livro",
-      "valor": "70",
+      "valor": "50",
       "tipo": "despesa",
       "categoria": "Estudos",
-      "data": "2025-10-07"
+      "data": "2025-10-09"
     },
     {
-      "id": "ec83",
+      "id": "084b",
+      "nome": "Livro",
+      "valor": 40,
+      "tipo": "despesa",
+      "categoria": "Estudos",
+      "data": "2025-10-09",
+      "userId": "52e5"
+    },
+    {
+      "id": "8961",
       "nome": "PIX",
-      "valor": "2000",
+      "valor": 40,
       "tipo": "receita",
       "categoria": "Pagamento",
-      "data": "2025-10-07"
+      "data": "2025-10-09",
+      "userId": "52e5"
+    },
+    {
+      "id": "bda6",
+      "nome": "Bala",
+      "valor": 10,
+      "tipo": "despesa",
+      "categoria": "Alimentação",
+      "data": "2025-10-09",
+      "userId": "52e5"
     }
   ]
 }

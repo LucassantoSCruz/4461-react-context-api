@@ -9,12 +9,11 @@ const formatador = new Intl.NumberFormat("pt-BR", {
 
 const OrcamentoDiario = () => {
   const { usuario } = useAppContext();
-
   return (
     <Cartao>
       <CartaoCabecalho>Orçamento diário disponível</CartaoCabecalho>
       <CartaoCorpo>
-        <Descricao>{formatador.format(usuario?.orcamento ?? 0)}</Descricao>
+        <Descricao>{formatador.format(usuario?.orcamentoDiario ?? 0)}</Descricao>
       </CartaoCorpo>
     </Cartao>
   );

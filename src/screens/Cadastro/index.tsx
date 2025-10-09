@@ -13,12 +13,11 @@ import Botao from "../../componentes/Botao/index.js";
 import CampoTexto from "../../componentes/CampoTexto/index.js";
 import Fieldset from "../../componentes/Fieldset/index.js";
 import Label from "../../componentes/Label/index.js";
-import { IUsuario } from "../../types/index.js";
-import { useAppContext } from "../../context/AppContext.js";
+import { IUsuario } from "../../types/index.ts";
+import { useAppContext } from "../../context/AppContext.tsx";
 
 const Cadastro = () => {
   const { criaUsuario } = useAppContext();
-
   const [form, setForm] = useState<Omit<IUsuario, "id" | "orcamentoDiario">>({
     nome: "",
     renda: 0,
